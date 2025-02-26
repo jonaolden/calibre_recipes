@@ -8,7 +8,7 @@ class MediumReadingList(BasicNewsRecipe):
     title          = 'Medium Reading List'
     language       = 'en'
     publication_type = 'blog'
-    oldest_article = 60
+    oldest_article = 60000000
     max_articles_per_feed = 30
     no_stylesheets = True
     auto_cleanup   = False
